@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+IMAGE_TAG=$1
+REPOSITORY_URI=148336247604.dkr.ecr.us-east-1.amazonaws.com/energylegacyapp
+
+echo "Updating kubeconfig"
+aws eks update-kubeconfig --region us-east-1 --name legacy-cluster
+
+echo "Updating deployment with new image: $IMAGE_TAG"
+kubectl set image deployment/energylegacyapp energylegacyapp=$REPOSITORY_URI:$IMAGE_TAG
+
+echo "Waiting for rollout to complete"
+kubectl rollout status deployment/energylegacyapp
