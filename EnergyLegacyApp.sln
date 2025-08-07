@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyLegacyApp.Business", "EnergyLegacyApp.Business\EnergyLegacyApp.Business.csproj", "{FD48056B-30D2-4443-B0B7-5E3A8084ABFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyLegacyApp.Data", "EnergyLegacyApp.Data\EnergyLegacyApp.Data.csproj", "{C3D2FD22-6CCF-D590-9580-7C2E3C0ED168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD48056B-30D2-4443-B0B7-5E3A8084ABFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD48056B-30D2-4443-B0B7-5E3A8084ABFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD48056B-30D2-4443-B0B7-5E3A8084ABFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD48056B-30D2-4443-B0B7-5E3A8084ABFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D2FD22-6CCF-D590-9580-7C2E3C0ED168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D2FD22-6CCF-D590-9580-7C2E3C0ED168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D2FD22-6CCF-D590-9580-7C2E3C0ED168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D2FD22-6CCF-D590-9580-7C2E3C0ED168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47AC7F1B-CB37-4EDD-937C-7F52D6904CB2}
+	EndGlobalSection
+EndGlobal
