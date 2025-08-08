@@ -11,6 +11,7 @@ RUN dotnet restore ./EnergyLegacyApp.sln
 # Build and publish the app
 #Testing
 #testing2
+#test3
 RUN dotnet publish ./EnergyLegacyApp.Business/EnergyLegacyApp.Business.csproj -c Release -o /app/publish
 
 # Runtime stage
